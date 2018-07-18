@@ -22,7 +22,7 @@ export class HeaderBar extends React.Component {
       <header className="header-bar" role='banner'>
         <hgroup>
           <h1>The Swedish Farm Yard</h1>
-          <h2>A Place to Learn to Speak Swedish</h2>
+          <h2>Learn Swedish words for Animals</h2>
         </hgroup>
         {logOutButton}
       </header>

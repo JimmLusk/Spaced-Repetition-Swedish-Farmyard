@@ -6,7 +6,6 @@ import '../styles/home.css';
 import LoginForm from './login-form';
 
 export function LandingPage(props) {
-  // If we are logged in redirect straight to the user's dashboard
   if (props.loggedIn) {
     return <Redirect to="/dashboard" />;
   }
@@ -15,13 +14,13 @@ export function LandingPage(props) {
     <div className="home" role='main'>
       <div className="members">
         <hgroup>
-          <h2>Welcome...New Swedish Speakers</h2>
+          <h2>Welcome... Swedish Learners</h2>
           <h3>Log In Below To Continue Learning</h3>
         </hgroup>
         <LoginForm />
       </div>
       <div className="new-members">
-        <h3>Not a member...sign up below</h3>
+        <h3>Not a member? Sign up below.</h3>
         <Link to="/register" className='register-link'>Register</Link>
       </div>
     </div>
