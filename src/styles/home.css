@@ -47,6 +47,7 @@ button{
   margin: 5px 0;
   font-size: 1.25em;
   text-align: center;
+  max-width: 200px;
 }
 
 .login-form button, .question-box button {
@@ -56,6 +57,7 @@ button{
   margin: 10px 0;
   padding: 0.5em;
   width: 40%;
+  max-width: 150px;
   font-size: 1em;
   cursor: pointer;
   transition: 0.15s;
